@@ -1,0 +1,275 @@
+{
+  "$type": "System.Collections.Generic.List`1[[HW4.core.Users.User, HW4.core]], mscorlib",
+  "$values": [
+    {
+      "$type": "HW4.core.Users.User, HW4.core",
+      "Login": "Injir228",
+      "Password": "qwerty",
+      "FIO": "Fed Ig Serg",
+      "Money": 11401,
+      "MoneySpent": 900,
+      "NumOfTickets": 5,
+      "BoughtSessions": {
+        "$type": "System.Collections.Generic.List`1[[HW4.core.Session, HW4.core]], mscorlib",
+        "$values": [
+          {
+            "$type": "HW4.core.Session, HW4.core",
+            "SeatsAvailable": {
+              "$type": "System.Int32[,], mscorlib",
+              "$values": [
+                [
+                  -1,
+                  -1
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "Revenue": 200,
+            "FilmTime": "2022-04-24T00:00:00",
+            "Duration": "02:00:00",
+            "RoomName": "Moscow"
+          },
+          {
+            "$type": "HW4.core.Session, HW4.core",
+            "SeatsAvailable": {
+              "$type": "System.Int32[,], mscorlib",
+              "$values": [
+                [
+                  -1,
+                  0
+                ],
+                [
+                  0,
+                  -1
+                ]
+              ]
+            },
+            "Revenue": 400,
+            "FilmTime": "2022-07-30T00:00:00",
+            "Duration": "01:45:00",
+            "RoomName": "Berlin"
+          },
+          {
+            "$type": "HW4.core.Session, HW4.core",
+            "SeatsAvailable": {
+              "$type": "System.Int32[,], mscorlib",
+              "$values": [
+                [
+                  -1,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "Revenue": 300,
+            "FilmTime": "2022-09-24T00:00:00",
+            "Duration": "02:00:00",
+            "RoomName": "Paris"
+          }
+        ]
+      },
+      "Tickets": {
+        "$type": "System.Collections.Generic.List`1[[HW4.core.Ticket, HW4.core]], mscorlib",
+        "$values": [
+          {
+            "$type": "HW4.core.Ticket, HW4.core",
+            "Row": 0,
+            "Seat": 0,
+            "ShowTime": "2022-09-24T00:00:00",
+            "FIO": "Fed Ig Serg",
+            "Session": {
+              "$type": "HW4.core.Session, HW4.core",
+              "SeatsAvailable": {
+                "$type": "System.Int32[,], mscorlib",
+                "$values": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    0
+                  ]
+                ]
+              },
+              "Revenue": 300,
+              "FilmTime": "2022-09-24T00:00:00",
+              "Duration": "02:00:00",
+              "RoomName": "Paris"
+            },
+            "AdditionalOption": "Cake"
+          },
+          {
+            "$type": "HW4.core.Ticket, HW4.core",
+            "Row": 0,
+            "Seat": 0,
+            "ShowTime": "2022-07-30T00:00:00",
+            "FIO": "Fed Ig Serg",
+            "Session": {
+              "$type": "HW4.core.Session, HW4.core",
+              "SeatsAvailable": {
+                "$type": "System.Int32[,], mscorlib",
+                "$values": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ]
+              },
+              "Revenue": 400,
+              "FilmTime": "2022-07-30T00:00:00",
+              "Duration": "01:45:00",
+              "RoomName": "Berlin"
+            },
+            "AdditionalOption": ""
+          },
+          {
+            "$type": "HW4.core.Ticket, HW4.core",
+            "Row": 1,
+            "Seat": 1,
+            "ShowTime": "2022-07-30T00:00:00",
+            "FIO": "Fed Ig Serg",
+            "Session": {
+              "$type": "HW4.core.Session, HW4.core",
+              "SeatsAvailable": {
+                "$type": "System.Int32[,], mscorlib",
+                "$values": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ]
+              },
+              "Revenue": 400,
+              "FilmTime": "2022-07-30T00:00:00",
+              "Duration": "01:45:00",
+              "RoomName": "Berlin"
+            },
+            "AdditionalOption": "Mirinda"
+          },
+          {
+            "$type": "HW4.core.Ticket, HW4.core",
+            "Row": 0,
+            "Seat": 1,
+            "ShowTime": "2022-04-24T00:00:00",
+            "FIO": "Fed Ig Serg",
+            "Session": {
+              "$type": "HW4.core.Session, HW4.core",
+              "SeatsAvailable": {
+                "$type": "System.Int32[,], mscorlib",
+                "$values": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    0,
+                    0
+                  ]
+                ]
+              },
+              "Revenue": 200,
+              "FilmTime": "2022-04-24T00:00:00",
+              "Duration": "02:00:00",
+              "RoomName": "Moscow"
+            },
+            "AdditionalOption": "Fanta"
+          },
+          {
+            "$type": "HW4.core.Ticket, HW4.core",
+            "Row": 0,
+            "Seat": 0,
+            "ShowTime": "2022-04-24T00:00:00",
+            "FIO": "Fed Ig Serg",
+            "Session": {
+              "$type": "HW4.core.Session, HW4.core",
+              "SeatsAvailable": {
+                "$type": "System.Int32[,], mscorlib",
+                "$values": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    0,
+                    0
+                  ]
+                ]
+              },
+              "Revenue": 200,
+              "FilmTime": "2022-04-24T00:00:00",
+              "Duration": "02:00:00",
+              "RoomName": "Moscow"
+            },
+            "AdditionalOption": "7UP"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "HW4.core.Users.User, HW4.core",
+      "Login": "Zhmih_Old",
+      "Password": "ggwp",
+      "FIO": "Pavel Terentev",
+      "Money": 0,
+      "MoneySpent": 0,
+      "NumOfTickets": 0,
+      "BoughtSessions": {
+        "$type": "System.Collections.Generic.List`1[[HW4.core.Session, HW4.core]], mscorlib",
+        "$values": []
+      },
+      "Tickets": {
+        "$type": "System.Collections.Generic.List`1[[HW4.core.Ticket, HW4.core]], mscorlib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "HW4.core.Users.User, HW4.core",
+      "Login": "fis",
+      "Password": "ggez",
+      "FIO": "Федорович Игорь Сергеевич",
+      "Money": 0,
+      "MoneySpent": 0,
+      "NumOfTickets": 0,
+      "BoughtSessions": {
+        "$type": "System.Collections.Generic.List`1[[HW4.core.Session, HW4.core]], mscorlib",
+        "$values": []
+      },
+      "Tickets": {
+        "$type": "System.Collections.Generic.List`1[[HW4.core.Ticket, HW4.core]], mscorlib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "HW4.core.Users.User, HW4.core",
+      "Login": "maks228",
+      "Password": "qq",
+      "FIO": "maks",
+      "Money": 0,
+      "MoneySpent": 0,
+      "NumOfTickets": 0,
+      "BoughtSessions": {
+        "$type": "System.Collections.Generic.List`1[[HW4.core.Session, HW4.core]], mscorlib",
+        "$values": []
+      },
+      "Tickets": {
+        "$type": "System.Collections.Generic.List`1[[HW4.core.Ticket, HW4.core]], mscorlib",
+        "$values": []
+      }
+    }
+  ]
+}

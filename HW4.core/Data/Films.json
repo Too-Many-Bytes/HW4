@@ -1,0 +1,256 @@
+[
+  {
+    "FilmName": "Spider-Man",
+    "AgeRate": "12+",
+    "Duration": "02:00:00",
+    "Rooms": [
+      {
+        "$type": "HW4.core.FilmStructure.StandardRoom, HW4.core",
+        "Drinks": [
+          "Fanta",
+          "7UP"
+        ],
+        "Name": "Moscow",
+        "NumOfRows": 2,
+        "NumOfSeats": 2,
+        "Prices": [
+          [
+            100,
+            100
+          ],
+          [
+            200,
+            200
+          ]
+        ],
+        "Sessions": [
+          {
+            "SeatsAvailable": [
+              [
+                -1,
+                -1
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "Revenue": 200,
+            "FilmTime": "2022-04-24T00:00:00",
+            "Duration": "02:00:00",
+            "RoomName": "Moscow"
+          }
+        ]
+      },
+      {
+        "$type": "HW4.core.FilmStructure.VIPRoom, HW4.core",
+        "Menu": [
+          "Pizza",
+          "Cake"
+        ],
+        "Name": "Paris",
+        "NumOfRows": 2,
+        "NumOfSeats": 2,
+        "Prices": [
+          [
+            300,
+            300
+          ],
+          [
+            400,
+            400
+          ]
+        ],
+        "Sessions": [
+          {
+            "SeatsAvailable": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "Revenue": 0,
+            "FilmTime": "2020-03-23T00:00:00",
+            "Duration": "02:00:00",
+            "RoomName": "Paris"
+          },
+          {
+            "SeatsAvailable": [
+              [
+                -1,
+                -1
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "Revenue": 600,
+            "FilmTime": "2022-09-24T00:00:00",
+            "Duration": "02:00:00",
+            "RoomName": "Paris"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "FilmName": "Hulk",
+    "AgeRate": "16+",
+    "Duration": "01:45:00",
+    "Rooms": [
+      {
+        "$type": "HW4.core.FilmStructure.StandardRoom, HW4.core",
+        "Drinks": [
+          "Mirinda",
+          "Sprite"
+        ],
+        "Name": "Berlin",
+        "NumOfRows": 2,
+        "NumOfSeats": 2,
+        "Prices": [
+          [
+            200,
+            200
+          ],
+          [
+            200,
+            200
+          ]
+        ],
+        "Sessions": [
+          {
+            "SeatsAvailable": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "Revenue": 0,
+            "FilmTime": "2022-03-30T00:00:00",
+            "Duration": "01:45:00",
+            "RoomName": "Berlin"
+          },
+          {
+            "SeatsAvailable": [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "Revenue": 400,
+            "FilmTime": "2022-07-30T00:00:00",
+            "Duration": "01:45:00",
+            "RoomName": "Berlin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "FilmName": "Iron Man",
+    "AgeRate": "12+",
+    "Duration": "02:00:00",
+    "Rooms": [
+      {
+        "Name": "London",
+        "NumOfRows": 5,
+        "NumOfSeats": 5,
+        "Prices": [
+          [
+            300,
+            300,
+            300,
+            300,
+            300
+          ],
+          [
+            300,
+            300,
+            300,
+            300,
+            300
+          ],
+          [
+            300,
+            300,
+            300,
+            300,
+            300
+          ],
+          [
+            300,
+            300,
+            300,
+            300,
+            300
+          ],
+          [
+            300,
+            300,
+            300,
+            300,
+            300
+          ]
+        ],
+        "Sessions": [
+          {
+            "SeatsAvailable": [
+              [
+                -1,
+                0,
+                -1,
+                -1,
+                -1
+              ],
+              [
+                0,
+                -1,
+                0,
+                -1,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                -1,
+                0
+              ],
+              [
+                0,
+                0,
+                -1,
+                0,
+                0
+              ],
+              [
+                -1,
+                0,
+                0,
+                0,
+                -1
+              ]
+            ],
+            "Revenue": 3000,
+            "FilmTime": "2023-06-23T00:00:00",
+            "Duration": "02:00:00",
+            "RoomName": "London"
+          }
+        ]
+      }
+    ]
+  }
+]

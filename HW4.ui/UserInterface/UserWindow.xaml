@@ -1,0 +1,30 @@
+﻿<Window x:Class="HW4.ui.UserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW4.ui"
+        mc:Ignorable="d"
+        Title="UserWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>-->
+
+        <Label Name="TitleText" Content="Добро пожаловать!" Grid.Row="0" Grid.Column="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Button Name="BalanceButton" Grid.Row="1" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15" Content="Мой баланс" Click="BalanceButton_Click"></Button>
+        <Button Name="BuyTicketButton" Grid.Row="2" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15" Content="Купить билеты" Click="BuyTicketButton_Click"></Button>
+        <Button Name="BoughtTicketsButton" Grid.Row="3" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15" Content="Мои билеты" Click="BoughtTicketsButton_Click"></Button>
+        <Button Name="ChangeAccountButton" Grid.Row="4" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15" Content="Изменить данные аккаунта" Click="ChangeAccountButton_Click"></Button>
+        <Button Name="QuitButton" Grid.Row="5" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="15" Content="Выйти" Click="QuitButton_Click"></Button>
+    </Grid>
+</Window>

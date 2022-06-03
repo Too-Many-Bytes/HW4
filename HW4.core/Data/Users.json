@@ -1,0 +1,775 @@
+[
+  {
+    "Login": "Injir228",
+    "Password": "qwerty",
+    "FIO": "Fed Ig Serg",
+    "Money": 11101,
+    "MoneySpent": 1200,
+    "NumOfTickets": 6,
+    "BoughtSessions": [
+      {
+        "SeatsAvailable": [
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "Revenue": 200,
+        "FilmTime": "2022-04-24T00:00:00",
+        "Duration": "02:00:00",
+        "RoomName": "Moscow"
+      },
+      {
+        "SeatsAvailable": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "Revenue": 400,
+        "FilmTime": "2022-07-30T00:00:00",
+        "Duration": "01:45:00",
+        "RoomName": "Berlin"
+      },
+      {
+        "SeatsAvailable": [
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "Revenue": 600,
+        "FilmTime": "2022-09-24T00:00:00",
+        "Duration": "02:00:00",
+        "RoomName": "Paris"
+      }
+    ],
+    "Tickets": [
+      {
+        "Row": 0,
+        "Seat": 0,
+        "ShowTime": "2022-09-24T00:00:00",
+        "FIO": "Fed Ig Serg",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "Revenue": 600,
+          "FilmTime": "2022-09-24T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "Paris"
+        },
+        "AdditionalOption": "Cake"
+      },
+      {
+        "Row": 0,
+        "Seat": 0,
+        "ShowTime": "2022-07-30T00:00:00",
+        "FIO": "Fed Ig Serg",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 400,
+          "FilmTime": "2022-07-30T00:00:00",
+          "Duration": "01:45:00",
+          "RoomName": "Berlin"
+        },
+        "AdditionalOption": ""
+      },
+      {
+        "Row": 1,
+        "Seat": 1,
+        "ShowTime": "2022-07-30T00:00:00",
+        "FIO": "Fed Ig Serg",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 400,
+          "FilmTime": "2022-07-30T00:00:00",
+          "Duration": "01:45:00",
+          "RoomName": "Berlin"
+        },
+        "AdditionalOption": "Mirinda"
+      },
+      {
+        "Row": 0,
+        "Seat": 1,
+        "ShowTime": "2022-04-24T00:00:00",
+        "FIO": "Fed Ig Serg",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "Revenue": 200,
+          "FilmTime": "2022-04-24T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "Moscow"
+        },
+        "AdditionalOption": "Fanta"
+      },
+      {
+        "Row": 0,
+        "Seat": 0,
+        "ShowTime": "2022-04-24T00:00:00",
+        "FIO": "Fed Ig Serg",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "Revenue": 200,
+          "FilmTime": "2022-04-24T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "Moscow"
+        },
+        "AdditionalOption": "7UP"
+      },
+      {
+        "Row": 0,
+        "Seat": 1,
+        "ShowTime": "2022-09-24T00:00:00",
+        "FIO": "Fed Ig Serg",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "Revenue": 600,
+          "FilmTime": "2022-09-24T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "Paris"
+        },
+        "AdditionalOption": null
+      }
+    ]
+  },
+  {
+    "Login": "Zhmih_Old",
+    "Password": "ggwp",
+    "FIO": "Pavel Terentev",
+    "Money": 0,
+    "MoneySpent": 0,
+    "NumOfTickets": 0,
+    "BoughtSessions": [],
+    "Tickets": []
+  },
+  {
+    "Login": "fis",
+    "Password": "ggez",
+    "FIO": "Федорович Игорь Сергеевич",
+    "Money": 0,
+    "MoneySpent": 3000,
+    "NumOfTickets": 10,
+    "BoughtSessions": [
+      {
+        "SeatsAvailable": [
+          [
+            -1,
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            0,
+            0,
+            -1
+          ]
+        ],
+        "Revenue": 3000,
+        "FilmTime": "2023-06-23T00:00:00",
+        "Duration": "02:00:00",
+        "RoomName": "London"
+      }
+    ],
+    "Tickets": [
+      {
+        "Row": 1,
+        "Seat": 1,
+        "ShowTime": "2023-06-23T00:00:00",
+        "FIO": "Федорович Игорь Сергеевич",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 3000,
+          "FilmTime": "2023-06-23T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "London"
+        },
+        "AdditionalOption": null
+      },
+      {
+        "Row": 3,
+        "Seat": 2,
+        "ShowTime": "2023-06-23T00:00:00",
+        "FIO": "Федорович Игорь Сергеевич",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 3000,
+          "FilmTime": "2023-06-23T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "London"
+        },
+        "AdditionalOption": null
+      },
+      {
+        "Row": 2,
+        "Seat": 3,
+        "ShowTime": "2023-06-23T00:00:00",
+        "FIO": "Федорович Игорь Сергеевич",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 3000,
+          "FilmTime": "2023-06-23T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "London"
+        },
+        "AdditionalOption": null
+      },
+      {
+        "Row": 4,
+        "Seat": 4,
+        "ShowTime": "2023-06-23T00:00:00",
+        "FIO": "Федорович Игорь Сергеевич",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 3000,
+          "FilmTime": "2023-06-23T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "London"
+        },
+        "AdditionalOption": null
+      },
+      {
+        "Row": 0,
+        "Seat": 0,
+        "ShowTime": "2023-06-23T00:00:00",
+        "FIO": "Федорович Игорь Сергеевич",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 3000,
+          "FilmTime": "2023-06-23T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "London"
+        },
+        "AdditionalOption": null
+      },
+      {
+        "Row": 0,
+        "Seat": 4,
+        "ShowTime": "2023-06-23T00:00:00",
+        "FIO": "Федорович Игорь Сергеевич",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 3000,
+          "FilmTime": "2023-06-23T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "London"
+        },
+        "AdditionalOption": null
+      },
+      {
+        "Row": 4,
+        "Seat": 0,
+        "ShowTime": "2023-06-23T00:00:00",
+        "FIO": "Федорович Игорь Сергеевич",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 3000,
+          "FilmTime": "2023-06-23T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "London"
+        },
+        "AdditionalOption": null
+      },
+      {
+        "Row": 0,
+        "Seat": 2,
+        "ShowTime": "2023-06-23T00:00:00",
+        "FIO": "Федорович Игорь Сергеевич",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 3000,
+          "FilmTime": "2023-06-23T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "London"
+        },
+        "AdditionalOption": null
+      },
+      {
+        "Row": 0,
+        "Seat": 3,
+        "ShowTime": "2023-06-23T00:00:00",
+        "FIO": "Федорович Игорь Сергеевич",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 3000,
+          "FilmTime": "2023-06-23T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "London"
+        },
+        "AdditionalOption": null
+      },
+      {
+        "Row": 1,
+        "Seat": 3,
+        "ShowTime": "2023-06-23T00:00:00",
+        "FIO": "Федорович Игорь Сергеевич",
+        "Session": {
+          "SeatsAvailable": [
+            [
+              -1,
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "Revenue": 3000,
+          "FilmTime": "2023-06-23T00:00:00",
+          "Duration": "02:00:00",
+          "RoomName": "London"
+        },
+        "AdditionalOption": null
+      }
+    ]
+  },
+  {
+    "Login": "maks228",
+    "Password": "qq",
+    "FIO": "maks",
+    "Money": 0,
+    "MoneySpent": 0,
+    "NumOfTickets": 0,
+    "BoughtSessions": [],
+    "Tickets": []
+  }
+]

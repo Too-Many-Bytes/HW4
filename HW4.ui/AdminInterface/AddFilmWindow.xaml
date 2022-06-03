@@ -1,0 +1,47 @@
+﻿<Window x:Class="HW4.ui.AddFilmWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW4.ui"
+        mc:Ignorable="d"
+        Title="AddFilmWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label Name="FilmNameText" Content="Введите название фильма:" Grid.Row="0" Grid.Column="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Name="FilmAgeRateText" Content="Введите возрастной рейтинг фильма:" Grid.Row="1" Grid.Column="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Name="FilmDurationText" Content="Введите продолжительность фильма:" Grid.Row="2" Grid.Column="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Name="RoomNameText" Content="Введите название зала:" Grid.Row="3" Grid.Column="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Name="RoomNumOfRowsText" Content="Введите количество рядов в зале:" Grid.Row="4" Grid.Column="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Name="RoomNumOfColumnsText" Content="Введите количество мест в ряду:" Grid.Row="5" Grid.Column="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Name="RoomTicketPriceText" Content="Введите стоимость билета в зале:" Grid.Row="6" Grid.Column="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <Label Name="SessionFilmTimeText" Content="Введите дату и время сеанса:" Grid.Row="7" Grid.Column="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+
+        <TextBox Name="FilmName" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox Name="FilmAgeRate" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox Name="FilmDuration" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox Name="RoomName" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox Name="RoomNumOfRows" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox Name="RoomNumOfSeats" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox Name="RoomTicketPrice" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox Name="SessoinFilmTime" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+
+        <Button Name="AddFilmButton" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" Width="150" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Content="Добавить фильм" Click="AddFilmButton_Click"></Button>
+
+    </Grid>
+</Window>

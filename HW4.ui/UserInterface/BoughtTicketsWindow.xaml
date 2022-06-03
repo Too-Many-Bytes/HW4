@@ -1,0 +1,44 @@
+﻿<Window x:Class="HW4.ui.BoughtTicketsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW4.ui"
+        mc:Ignorable="d"
+        Title="BoughtTicketsWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Name="BoughtTicketsText" Content="Ваши билеты" Grid.Row="0" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <ListBox Name="TicketsListBox" Grid.Row="1">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <DockPanel Grid.Column="0" Grid.RowSpan="3" Margin="5 5 10 5">
+                            <Border>
+                                <Image Name="AvatarImage" Width="100" Height="100" Source="Images/default.jpg" Stretch="UniformToFill" Initialized="AvatarImage_Initialized"></Image>
+                            </Border>
+                        </DockPanel>
+
+                        <TextBlock Name="FilmNameTextBlock" Grid.Column="1" Grid.Row="0" FontSize="26" FontFamily="Brush Script MT" Margin="10 7 0 3" Initialized="FilmNameTextBlock_Initialized"></TextBlock>
+                        <TextBlock Name="SeatTextBlock" Grid.Column="1" Grid.Row="1" FontSize="22" FontFamily="Calibri" Margin="10 3 10 10" Initialized="SeatTextBlock_Initialized"></TextBlock>
+                        <TextBlock Name="FilmTimeTextBlock" Grid.Column="1" Grid.Row="2" FontSize="22" FontFamily="Calibri" Margin="10 3 0 10" Initialized="FilmTimeTextBlock_Initialized"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

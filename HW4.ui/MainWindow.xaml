@@ -1,0 +1,20 @@
+﻿<Window x:Class="HW4.ui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW4.ui"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button Name="AuthorisationUserButton" Grid.Row="0" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="30" Content="Авторизоваться как пользователь" Click="AuthorizationUserButton_Click"></Button>
+        <Button Name="AuthorisationAdminButton" Grid.Row="1" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="30" Content="Авторизоваться как администратор" Click="AuthorizationAdminButton_Click"></Button>
+        <Button Name="RegistrationButton" Grid.Row="2" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="30" Content="Зарегистрироваться" Click="RegistrationButton_Click"></Button>
+    </Grid>
+</Window>
